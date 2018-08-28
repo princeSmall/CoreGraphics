@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+typedef NS_ENUM(NSInteger ,viewType) {
+    graphicsContexts = 0,
+    paths,
+    transforms,
+    patterns
+};
 
 @interface NewViewController : UIViewController
+@property (nonatomic ,assign)viewType type;
 
 @end

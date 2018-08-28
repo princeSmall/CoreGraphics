@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C06824B2133D35400B9A328 /* MyQuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C06824A2133D35400B9A328 /* MyQuartzView.m */; };
+		1C06824E2133DCD900B9A328 /* MyClipPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C06824D2133DCD900B9A328 /* MyClipPathView.m */; };
+		1C06825121340C4900B9A328 /* MyTransformsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C06825021340C4900B9A328 /* MyTransformsView.m */; };
+		1C06825321340C5B00B9A328 /* snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C06825221340C5B00B9A328 /* snow.jpg */; };
+		1C0682682135241100B9A328 /* MyPatternsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0682672135241100B9A328 /* MyPatternsView.m */; };
 		1C1FBC8A2133CDD00054823F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1FBC892133CDD00054823F /* AppDelegate.m */; };
 		1C1FBC8D2133CDD00054823F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1FBC8C2133CDD00054823F /* ViewController.m */; };
 		1C1FBC902133CDD00054823F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1FBC8E2133CDD00054823F /* Main.storyboard */; };
 		1C1FBC922133CDD20054823F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C1FBC912133CDD20054823F /* Assets.xcassets */; };
 		1C1FBC952133CDD20054823F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1FBC932133CDD20054823F /* LaunchScreen.storyboard */; };
 		1C1FBC982133CDD20054823F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1FBC972133CDD20054823F /* main.m */; };
+		1C1FBCA02133CDF90054823F /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1FBC9F2133CDF90054823F /* NewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C0682492133D35400B9A328 /* MyQuartzView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyQuartzView.h; sourceTree = "<group>"; };
+		1C06824A2133D35400B9A328 /* MyQuartzView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyQuartzView.m; sourceTree = "<group>"; };
+		1C06824C2133DCD900B9A328 /* MyClipPathView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClipPathView.h; sourceTree = "<group>"; };
+		1C06824D2133DCD900B9A328 /* MyClipPathView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClipPathView.m; sourceTree = "<group>"; };
+		1C06824F21340C4900B9A328 /* MyTransformsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTransformsView.h; sourceTree = "<group>"; };
+		1C06825021340C4900B9A328 /* MyTransformsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTransformsView.m; sourceTree = "<group>"; };
+		1C06825221340C5B00B9A328 /* snow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow.jpg; sourceTree = "<group>"; };
+		1C0682662135241100B9A328 /* MyPatternsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPatternsView.h; sourceTree = "<group>"; };
+		1C0682672135241100B9A328 /* MyPatternsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPatternsView.m; sourceTree = "<group>"; };
 		1C1FBC852133CDD00054823F /* CoreGraphics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreGraphics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C1FBC882133CDD00054823F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C1FBC892133CDD00054823F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +41,8 @@
 		1C1FBC942133CDD20054823F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C1FBC962133CDD20054823F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C1FBC972133CDD20054823F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C1FBC9E2133CDF90054823F /* NewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		1C1FBC9F2133CDF90054823F /* NewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +56,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C0682462133D2C700B9A328 /* Transforms */ = {
+			isa = PBXGroup;
+			children = (
+				1C06824F21340C4900B9A328 /* MyTransformsView.h */,
+				1C06825021340C4900B9A328 /* MyTransformsView.m */,
+			);
+			path = Transforms;
+			sourceTree = "<group>";
+		};
+		1C0682472133D2D800B9A328 /* Paths */ = {
+			isa = PBXGroup;
+			children = (
+				1C06824C2133DCD900B9A328 /* MyClipPathView.h */,
+				1C06824D2133DCD900B9A328 /* MyClipPathView.m */,
+			);
+			path = Paths;
+			sourceTree = "<group>";
+		};
+		1C0682482133D2EF00B9A328 /* GraphicsContexts */ = {
+			isa = PBXGroup;
+			children = (
+				1C0682492133D35400B9A328 /* MyQuartzView.h */,
+				1C06824A2133D35400B9A328 /* MyQuartzView.m */,
+			);
+			path = GraphicsContexts;
+			sourceTree = "<group>";
+		};
+		1C068265213523E600B9A328 /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				1C0682662135241100B9A328 /* MyPatternsView.h */,
+				1C0682672135241100B9A328 /* MyPatternsView.m */,
+			);
+			path = Patterns;
+			sourceTree = "<group>";
+		};
 		1C1FBC7C2133CDD00054823F = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +111,17 @@
 		1C1FBC872133CDD00054823F /* CoreGraphics */ = {
 			isa = PBXGroup;
 			children = (
+				1C06825221340C5B00B9A328 /* snow.jpg */,
 				1C1FBC882133CDD00054823F /* AppDelegate.h */,
 				1C1FBC892133CDD00054823F /* AppDelegate.m */,
 				1C1FBC8B2133CDD00054823F /* ViewController.h */,
 				1C1FBC8C2133CDD00054823F /* ViewController.m */,
+				1C0682482133D2EF00B9A328 /* GraphicsContexts */,
+				1C0682472133D2D800B9A328 /* Paths */,
+				1C0682462133D2C700B9A328 /* Transforms */,
+				1C068265213523E600B9A328 /* Patterns */,
+				1C1FBC9E2133CDF90054823F /* NewViewController.h */,
+				1C1FBC9F2133CDF90054823F /* NewViewController.m */,
 				1C1FBC8E2133CDD00054823F /* Main.storyboard */,
 				1C1FBC912133CDD20054823F /* Assets.xcassets */,
 				1C1FBC932133CDD20054823F /* LaunchScreen.storyboard */,
@@ -130,6 +190,7 @@
 			files = (
 				1C1FBC952133CDD20054823F /* LaunchScreen.storyboard in Resources */,
 				1C1FBC922133CDD20054823F /* Assets.xcassets in Resources */,
+				1C06825321340C5B00B9A328 /* snow.jpg in Resources */,
 				1C1FBC902133CDD00054823F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +202,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C06825121340C4900B9A328 /* MyTransformsView.m in Sources */,
+				1C06824B2133D35400B9A328 /* MyQuartzView.m in Sources */,
 				1C1FBC8D2133CDD00054823F /* ViewController.m in Sources */,
 				1C1FBC982133CDD20054823F /* main.m in Sources */,
+				1C06824E2133DCD900B9A328 /* MyClipPathView.m in Sources */,
+				1C0682682135241100B9A328 /* MyPatternsView.m in Sources */,
 				1C1FBC8A2133CDD00054823F /* AppDelegate.m in Sources */,
+				1C1FBCA02133CDF90054823F /* NewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

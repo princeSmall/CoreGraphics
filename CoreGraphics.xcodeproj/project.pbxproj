@@ -12,6 +12,10 @@
 		1C06825121340C4900B9A328 /* MyTransformsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C06825021340C4900B9A328 /* MyTransformsView.m */; };
 		1C06825321340C5B00B9A328 /* snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C06825221340C5B00B9A328 /* snow.jpg */; };
 		1C0682682135241100B9A328 /* MyPatternsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0682672135241100B9A328 /* MyPatternsView.m */; };
+		1C06826D2135382800B9A328 /* MyShadowsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C06826C2135382800B9A328 /* MyShadowsView.m */; };
+		1C0682712135503800B9A328 /* MyGradientsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0682702135503800B9A328 /* MyGradientsView.m */; };
+		1C06827521366E2900B9A328 /* MyCGShadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C06827421366E2900B9A328 /* MyCGShadingView.m */; };
+		1C0682792136799400B9A328 /* MyTransparencyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0682782136799400B9A328 /* MyTransparencyView.m */; };
 		1C1FBC8A2133CDD00054823F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1FBC892133CDD00054823F /* AppDelegate.m */; };
 		1C1FBC8D2133CDD00054823F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1FBC8C2133CDD00054823F /* ViewController.m */; };
 		1C1FBC902133CDD00054823F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1FBC8E2133CDD00054823F /* Main.storyboard */; };
@@ -31,6 +35,14 @@
 		1C06825221340C5B00B9A328 /* snow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow.jpg; sourceTree = "<group>"; };
 		1C0682662135241100B9A328 /* MyPatternsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPatternsView.h; sourceTree = "<group>"; };
 		1C0682672135241100B9A328 /* MyPatternsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPatternsView.m; sourceTree = "<group>"; };
+		1C06826B2135382800B9A328 /* MyShadowsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyShadowsView.h; sourceTree = "<group>"; };
+		1C06826C2135382800B9A328 /* MyShadowsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyShadowsView.m; sourceTree = "<group>"; };
+		1C06826F2135503800B9A328 /* MyGradientsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyGradientsView.h; sourceTree = "<group>"; };
+		1C0682702135503800B9A328 /* MyGradientsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGradientsView.m; sourceTree = "<group>"; };
+		1C06827321366E2900B9A328 /* MyCGShadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCGShadingView.h; sourceTree = "<group>"; };
+		1C06827421366E2900B9A328 /* MyCGShadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCGShadingView.m; sourceTree = "<group>"; };
+		1C0682772136799400B9A328 /* MyTransparencyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTransparencyView.h; sourceTree = "<group>"; };
+		1C0682782136799400B9A328 /* MyTransparencyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTransparencyView.m; sourceTree = "<group>"; };
 		1C1FBC852133CDD00054823F /* CoreGraphics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreGraphics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C1FBC882133CDD00054823F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C1FBC892133CDD00054823F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -92,6 +104,42 @@
 			path = Patterns;
 			sourceTree = "<group>";
 		};
+		1C06826A2135380300B9A328 /* Shadows */ = {
+			isa = PBXGroup;
+			children = (
+				1C06826B2135382800B9A328 /* MyShadowsView.h */,
+				1C06826C2135382800B9A328 /* MyShadowsView.m */,
+			);
+			path = Shadows;
+			sourceTree = "<group>";
+		};
+		1C06826E2135501500B9A328 /* Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				1C06826F2135503800B9A328 /* MyGradientsView.h */,
+				1C0682702135503800B9A328 /* MyGradientsView.m */,
+			);
+			path = Gradients;
+			sourceTree = "<group>";
+		};
+		1C06827221366DF800B9A328 /* CGShading */ = {
+			isa = PBXGroup;
+			children = (
+				1C06827321366E2900B9A328 /* MyCGShadingView.h */,
+				1C06827421366E2900B9A328 /* MyCGShadingView.m */,
+			);
+			path = CGShading;
+			sourceTree = "<group>";
+		};
+		1C0682762136797000B9A328 /* Transparency */ = {
+			isa = PBXGroup;
+			children = (
+				1C0682772136799400B9A328 /* MyTransparencyView.h */,
+				1C0682782136799400B9A328 /* MyTransparencyView.m */,
+			);
+			path = Transparency;
+			sourceTree = "<group>";
+		};
 		1C1FBC7C2133CDD00054823F = {
 			isa = PBXGroup;
 			children = (
@@ -120,7 +168,11 @@
 				1C0682472133D2D800B9A328 /* Paths */,
 				1C0682462133D2C700B9A328 /* Transforms */,
 				1C068265213523E600B9A328 /* Patterns */,
+				1C06826A2135380300B9A328 /* Shadows */,
+				1C06826E2135501500B9A328 /* Gradients */,
+				1C06827221366DF800B9A328 /* CGShading */,
 				1C1FBC9E2133CDF90054823F /* NewViewController.h */,
+				1C0682762136797000B9A328 /* Transparency */,
 				1C1FBC9F2133CDF90054823F /* NewViewController.m */,
 				1C1FBC8E2133CDD00054823F /* Main.storyboard */,
 				1C1FBC912133CDD20054823F /* Assets.xcassets */,
@@ -207,8 +259,12 @@
 				1C1FBC8D2133CDD00054823F /* ViewController.m in Sources */,
 				1C1FBC982133CDD20054823F /* main.m in Sources */,
 				1C06824E2133DCD900B9A328 /* MyClipPathView.m in Sources */,
+				1C06826D2135382800B9A328 /* MyShadowsView.m in Sources */,
 				1C0682682135241100B9A328 /* MyPatternsView.m in Sources */,
+				1C06827521366E2900B9A328 /* MyCGShadingView.m in Sources */,
 				1C1FBC8A2133CDD00054823F /* AppDelegate.m in Sources */,
+				1C0682712135503800B9A328 /* MyGradientsView.m in Sources */,
+				1C0682792136799400B9A328 /* MyTransparencyView.m in Sources */,
 				1C1FBCA02133CDF90054823F /* NewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

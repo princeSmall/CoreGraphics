@@ -11,7 +11,10 @@
 #import "MyClipPathView.h"
 #import "MyTransformsView.h"
 #import "MyPatternsView.h"
-
+#import "MyShadowsView.h"
+#import "MyGradientsView.h"
+#import "MyCGShadingView.h"
+#import "MyTransparencyView.h"
 @interface NewViewController ()
 
 @end
@@ -41,7 +44,22 @@
             MyPatternsView *patternsV = [[MyPatternsView alloc]initWithFrame:self.view.bounds];
             [self.view addSubview:patternsV];
         }break;
-            
+        case shadows:{
+            MyShadowsView *shadowsV = [[MyShadowsView alloc]initWithFrame:self.view.bounds];
+            [self.view addSubview:shadowsV];
+        }break;
+        case gradients:{
+            MyGradientsView *gradientsV = [[MyGradientsView alloc]initWithFrame:self.view.bounds];
+            [self.view addSubview:gradientsV];
+        }break;
+        case shading:{
+            MyCGShadingView *shadingV = [[MyCGShadingView alloc]initWithFrame:self.view.bounds];
+            [self.view addSubview:shadingV];
+        }break;
+        case transparency:{
+            MyTransparencyView *transparencyV = [[MyTransparencyView alloc]initWithFrame:self.view.bounds];
+            [self.view addSubview:transparencyV];
+        }break;
         default:
             break;
     }

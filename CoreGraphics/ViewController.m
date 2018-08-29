@@ -54,7 +54,7 @@ static NSString *const cellIndentifier = @"cellIndentifier";
 }
 - (NSArray *)dataArray{
     if (!_dataArray) {
-        _dataArray = [NSArray arrayWithObjects:@"graphicsContexts",@"paths", @"MyTransformsView",@"MyPatternsView",nil];
+        _dataArray = [NSArray arrayWithObjects:@"graphicsContexts",@"paths", @"MyTransformsView",@"MyPatternsView",@"MyShadowsView",@"MyGradientsView",@"MyCGShadingView",@"MyTransparencyView",nil];
     }
     return _dataArray;
 }

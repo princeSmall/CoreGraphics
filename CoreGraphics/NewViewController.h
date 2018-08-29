@@ -11,7 +11,11 @@ typedef NS_ENUM(NSInteger ,viewType) {
     graphicsContexts = 0,
     paths,
     transforms,
-    patterns
+    patterns,
+    shadows,
+    gradients,
+    shading,
+    transparency
 };
 
 @interface NewViewController : UIViewController
